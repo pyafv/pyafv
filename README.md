@@ -1,5 +1,7 @@
 # PyAFV
 
+<a href="https://pyafv.github.io"><img src="https://raw.githubusercontent.com/pyafv/assets/main/gif/test.gif" alt="pyafv_pbc" align="right" /></a>
+
 [![PyPi](https://img.shields.io/pypi/v/pyafv?color=brightgreen&cacheSeconds=300)](https://pypi.org/project/pyafv/)
 [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyafv.svg)](https://anaconda.org/conda-forge/pyafv)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -18,8 +20,11 @@
 [![Soft Matter](https://img.shields.io/badge/Soft%20Matter-XXXXX-63a7c2.svg?colorA=63a7c2&colorB=grey)](https://doi.org/10.1103/PhysRevE.109.054408)
 -->
 
-Python code that implements the **active-finite-Voronoi (AFV) model** in 2D.
-The AFV framework was introduced and developed in, for example, Refs. [[1](#huang2023bridging)&ndash;[3](#wang2026divergence)].
+**PyAFV** is a Python package for simulating cellular tissues based on the 2D **active finite Voronoi (AFV) model**.
+It provides a computational framework for investigating collective cell behaviors such as motility, adhesion, jamming, and tissue fracture in active matter and biophysical systems.
+In contrast to standard vertex or Voronoi models, the AFV model incorporates finite interaction ranges and cell-medium interfaces, allowing for detachment, free boundaries, and fragmentation.
+The package includes tools for geometry handling, time evolution, and analysis of cell configurations.
+The AFV formalism was introduced and further developed in, for example, Refs. [[1](#huang2023bridging)&ndash;[3](#wang2026divergence)].
 
 
 ## Installation
@@ -35,15 +40,18 @@ import pyafv
 print(pyafv.__version__)
 ```
 
+<!--
 > On some HPC clusters, global Python path can contaminate the runtime environment. You may need to clear it explicitly using `unset PYTHONPATH` or prefixing the *pip* command with `PYTHONPATH=""`.
+-->
 
-As an alternative, you can install **PyAFV** via **conda** from the [conda-forge](https://anaconda.org/conda-forge/pyafv) channel:
+As an alternative, you can install **PyAFV** via *conda* from the **conda-forge** channel:
 ```bash
 conda install -c conda-forge pyafv
 ```
-If you go this route, note that for Python 3.14 the package currently supports only the GIL-enabled build.
+If you go this route, note that for Python 3.14 the **conda-forge** distribution currently provides only the GIL-enabled build.
 
 
+<!--
 ### Install from source
 
 Installing from source can be necessary if *pip* installation does not work. First, download and unzip the source code, then navigate to the root directory of the package and run:
@@ -71,20 +79,25 @@ If you need to install **PyAFV** on a machine without internet access, you can d
 pip install pyafv-<version>-<platform>.whl
 ```
 Alternatively, you can build **PyAFV** from source as described in the previous section. In this case, in addition to the required prerequisites of the package, the build-time dependencies **hatchling** and **hatch-cython** must also be available.
+-->
+
+> See the [documentation](https://pyafv.readthedocs.io/latest/usage.html#install-from-source) for instructions on installing the package from source or in offline environments.
 
 
 ### Install using Docker 🐳
 
-Pull the Docker image from **Docker Hub**:
+**PyAFV** can also be installed via containerized environments. Pull the Docker image from **Docker Hub**:
 ```bash
 docker pull wwang721/pyafv:latest
 ```
-It's also available in the **GitHub Container Registry (GHCR)** under [**GitHub Packages**](https://github.com/wwang721/pyafv/pkgs/container/pyafv); use `ghcr.io/wwang721/pyafv` to pull from GHCR instead.
+The image is also available via the **GitHub Container Registry (GHCR)** under [**GitHub Packages**](https://github.com/wwang721/pyafv/pkgs/container/pyafv); use `ghcr.io/wwang721/pyafv` to pull from GHCR instead.
+<!--
 Then run Python scripts with `pyafv` using:
 ```bash
 docker run --rm -v $(pwd):/app wwang721/pyafv python <script_name>.py
 ```
 Use `${PWD}` on Windows PowerShell instead of `$(pwd)`.
+-->
 
 
 ## Usage

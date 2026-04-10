@@ -10,7 +10,7 @@
 [![Codecov](https://codecov.io/github/wwang721/pyafv/branch/main/graph/badge.svg?token=VSXSOX8HVS)](https://codecov.io/github/wwang721/pyafv/tree/main)
 [![Documentation](https://app.readthedocs.org/projects/pyafv/badge/?version=latest)](https://pyafv.readthedocs.io)
 [![Docker](https://img.shields.io/docker/pulls/wwang721/pyafv.svg?logo=docker)](https://hub.docker.com/r/wwang721/pyafv)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyafv/assets/blob/main/jupyter/getting_started.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyafv/assets/blob/main/jupyter/index.ipynb)
 
 <!--
 [![Downloads](https://img.shields.io/pypi/dm/pyafv.svg?cacheSeconds=43200)](https://pypi.org/project/pyafv/)

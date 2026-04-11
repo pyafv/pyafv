@@ -4,12 +4,12 @@
 
 [![PyPi](https://img.shields.io/pypi/v/pyafv?color=brightgreen&cacheSeconds=300)](https://pypi.org/project/pyafv/)
 [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyafv.svg)](https://anaconda.org/conda-forge/pyafv)
+[![Docker](https://img.shields.io/docker/v/wwang721/pyafv?logo=docker&sort=semver&color=blue&label=docker)](https://hub.docker.com/r/wwang721/pyafv)
 [![License](https://img.shields.io/github/license/wwang721/pyafv)](/LICENSE)
 [![Tests on all platforms](https://github.com/wwang721/pyafv/actions/workflows/tests_all_platform.yml/badge.svg)](https://github.com/wwang721/pyafv/actions/workflows/tests_all_platform.yml)
 [![pytest](https://github.com/wwang721/pyafv/actions/workflows/tests.yml/badge.svg)](https://github.com/wwang721/pyafv/actions/workflows/tests.yml)
 [![Codecov](https://codecov.io/github/wwang721/pyafv/branch/main/graph/badge.svg?token=VSXSOX8HVS)](https://codecov.io/github/wwang721/pyafv/tree/main)
 [![Documentation](https://app.readthedocs.org/projects/pyafv/badge/?version=latest)](https://pyafv.readthedocs.io)
-[![Docker](https://img.shields.io/docker/pulls/wwang721/pyafv.svg?logo=docker)](https://hub.docker.com/r/wwang721/pyafv)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyafv/assets/blob/main/jupyter/index.ipynb)
 
 <!--

@@ -137,7 +137,7 @@ Install using Docker
 
 .. only:: html
    
-   .. image:: https://img.shields.io/docker/pulls/wwang721/pyafv.svg?logo=docker
+   .. image:: https://img.shields.io/docker/v/wwang721/pyafv?logo=docker&sort=semver&color=blue&label=docker
       :target: https://hub.docker.com/r/wwang721/pyafv
       :alt: Docker
 

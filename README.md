@@ -154,7 +154,8 @@ Below are representative simulation snapshots generated using the code:
 
 ## Citing the package
 
-To cite **PyAFV**, use the following BibTeX entry:
+To cite **PyAFV**, please refer to the associated paper available on [arXiv](
+https://doi.org/10.48550/arXiv.2604.15481). Here is a ready-made BibTeX entry:
 ```bibtex
 @article{wang2026divergence,
   title   = {{Divergence of detachment forces in the finite Voronoi model}},

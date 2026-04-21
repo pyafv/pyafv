@@ -5,8 +5,11 @@ Citing PyAFV
    :target: https://doi.org/10.48550/arXiv.2604.15481
    :alt: arXiv:2604.15481
 
+.. |arXiv| replace:: **arXiv**
+.. _arXiv: https://doi.org/10.48550/arXiv.2604.15481
+
 If you use **PyAFV** in your research, please cite it.
-A paper associated with **PyAFV** has been posted to **arXiv**. Here is a ready-made BibTeX entry:
+A paper associated with **PyAFV** has been posted to |arXiv|_. Here is a ready-made BibTeX entry:
 
 .. code-block:: bibtex
 

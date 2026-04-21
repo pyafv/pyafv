@@ -25,6 +25,8 @@ In contrast to standard vertex or Voronoi models, the AFV model incorporates fin
 The package includes tools for geometry handling, time evolution, and analysis of cell configurations.
 The AFV formalism was introduced and further developed in, for example, Refs. [[1](#huang2023bridging)&ndash;[3](#wang2026divergence)].
 
+> See an interactive [simulation demo](https://dapengbi.com/paper_simulation_demos/afv_model/index.html) using **PyAFV** on Prof. Dapeng (Max) Bi's homepage!
+
 
 ## Installation
 

@@ -30,6 +30,19 @@ The AFV framework was introduced and developed in, for example, Refs. :cite:`hua
 Check out the :doc:`usage`, :doc:`examples`, :doc:`performance`, :doc:`calibration`, :doc:`citation`, :doc:`contributing`, and :doc:`api/index` sections for further information, including
 how to :ref:`install <installation>` the package, usage examples, benchmarks, local development, and the complete API reference.
 
+.. |simulation demo| replace:: *simulation demo*
+.. _simulation demo: https://dapengbi.com/paper_simulation_demos/afv_model/index.html
+
+.. |collection| replace:: *collection*
+.. _collection: https://colab.research.google.com/github/pyafv/assets/blob/main/jupyter/index.ipynb
+
+.. image:: https://colab.research.google.com/assets/colab-badge.svg
+   :target: https://colab.research.google.com/github/pyafv/assets/blob/main/jupyter/index.ipynb
+   :alt: Open In Colab
+
+- *Explore a* |collection|_ *of usage examples in Jupyter notebooks on Google Colab.*
+- *See also an interactive* |simulation demo|_ *using PyAFV on Prof. Dapeng (Max) Bi's homepage!*
+
 .. |GitHub| replace:: **GitHub**
 .. _GitHub: https://github.com/wwang721/pyafv
 

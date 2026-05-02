@@ -23,7 +23,7 @@
 
       ~calibrate
 
-   .. rubric:: Experimental API (use with caution)
+   .. rubric:: Experimental APIs (use with caution)
 
    .. autosummary::
 

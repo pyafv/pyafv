@@ -85,7 +85,7 @@ Custom plotting
 
 See `examples/jupyter/custom_plot.ipynb <https://github.com/wwang721/pyafv/blob/main/examples/jupyter/custom_plot.ipynb>`_ for an example of custom plotting using **PyAFV**, or you can run the notebook directly on **Google Colab** by clicking the badge above.
 
-This example shows how to use :py:meth:`pyafv.FiniteVoronoiSimulator.build` returned ``dict`` to plot the Voronoi diagram with custom styling, including coloring cells by their area and customizing edge colors and widths. Both a **serial** version (for *illustration*) and a **vectorized** version (⚡\ :emphasis:`much faster`) of the *custom plotting routine* are provided in the notebook.
+This example, together with the example in the :ref:`section using periodic boundary conditions <pbc>`, show how to use :py:meth:`pyafv.FiniteVoronoiSimulator.build` returned ``dict`` to plot the Voronoi diagram with custom styling, including coloring cells by their area and customizing edge colors and widths. Both a **serial** version (for *illustration*) and a **vectorized** version (⚡\ :emphasis:`much faster`) of the *custom plotting routine* are provided in the notebooks.
 
 .. important::
 
@@ -138,6 +138,8 @@ This :py:func:`pyafv.visualize_2d` function is designed to be **flexible** and *
 
 |
 
+.. _pbc:
+
 Periodic boundary conditions
 ----------------------------
 
@@ -150,7 +152,7 @@ See `examples/jupyter/periodic_plotting.ipynb <https://github.com/wwang721/pyafv
 
 .. note::
 
-   The tiling routine is now wrapped as a utility function :py:func:`pyafv.tile_pbc` (experimental).
+   Starting from v0.4.10, the tiling routine is also wrapped as a utility function :py:func:`pyafv.tile_pbc` (experimental).
 
 .. image:: ../assets/pbc.png
    :alt: PBC example

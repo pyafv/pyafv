@@ -1,5 +1,5 @@
-Experimental API
-================
+Experimental APIs
+=================
 
 .. warning::
    These functions are still under development and may be removed or changed without deprecation. Use with caution.

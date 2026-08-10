@@ -62,7 +62,6 @@ As an alternative, you can install **PyAFV** via *conda* from the |conda-forge|_
    
    (.venv) $ conda install -c conda-forge pyafv
 
-If you go this route, note that for Python 3.14 the package currently supports only the GIL-enabled build.
 
 
 Install from source

@@ -27,6 +27,7 @@ jobs:
         uses: ilammy/msvc-dev-cmd@v1
         with:
           arch: amd64_arm64
+          toolset: '14.44'  # Use VS2022 MSVC toolset to avoid VS2026 compiler errors.
 
       # Add this step to make 'uv' available to cibuildwheel
       - name: Install uv

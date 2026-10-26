@@ -11,7 +11,8 @@ jobs:
     name: Build wheels on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     env:
-      CIBW_BUILD: "cp310-* cp311-* cp312-* cp313-* cp314-* cp314t-*"
+      CIBW_BUILD: "cp310-* cp311-* cp312-* cp313-* cp314-* cp314t-* cp315-* cp315t-*"
+      CIBW_REPAIR_WHEEL_COMMAND_WINDOWS: ""    # disable Windows wheel repair (delvewheel), which was enabled by default in cibuildwheel v4.0.
       CIBW_BUILD_FRONTEND: "build[uv]"
     strategy:
       matrix:
@@ -57,7 +58,7 @@ jobs:
 
       - name: Build wheels (non-Windows-ARM)
         if: matrix.os != 'windows-11-arm'
-        uses: pypa/cibuildwheel@v3.4.1
+        uses: pypa/cibuildwheel@v4.3.4
 
       - uses: actions/upload-artifact@v7
         with:

@@ -34,7 +34,7 @@ The AFV formalism was introduced and further developed in, for example, Refs. [[
 ```bash
 pip install pyafv
 ```
-The package supports Python ≥ 3.10 and < 3.15, including Python 3.14t (the free-threaded, no-GIL build).
+The package supports Python ≥ 3.10, including free-threaded (no-GIL) builds of Python 3.14 and 3.15.
 To verify that the installation was successful and that the correct version is installed, run the following in Python:
 ```python
 import pyafv

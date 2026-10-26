@@ -6,7 +6,7 @@ Getting started
 Installation
 ------------
 
-**PyAFV** supports *Python* >= 3.10, < 3.15, and has been tested on major operating systems including *Linux*, *macOS*, and *Windows*, for both *x86-64* and *ARM64* architectures.
+**PyAFV** supports *Python* >= 3.10, and has been tested on major operating systems including *Linux*, *macOS*, and *Windows*, for both *x86-64* and *ARM64* architectures.
 
 .. image:: https://github.com/wwang721/pyafv/actions/workflows/tests_all_platform.yml/badge.svg
    :target: https://github.com/wwang721/pyafv/actions/workflows/tests_all_platform.yml
@@ -14,8 +14,8 @@ Installation
 
 .. note::
    
-   - Python 3.14t, the **free-threaded** build that runs without the *Global Interpreter Lock (GIL)*, is also supported starting with **PyAFV** v0.3.8.
-   - Python 3.10 and 3.14t (free-threaded) on *Windows ARM64* (not *x86-64*) are the only untested configurations. The builds succeed and the wheels are available on |PyPI|_, but automated testing is unavailable due to the absence of a supported **GitHub Actions** runners for these configurations.
+   - Python 3.14t and 3.15t, the **free-threaded** builds that run without the *Global Interpreter Lock (GIL)*, are also supported starting with **PyAFV** v0.4.17.
+   - Python 3.10 on *Windows ARM64* (not *x86-64*) is the only untested configuration. The build succeeds and the wheel is available on |PyPI|_, but automated testing is unavailable due to the absence of a supported **GitHub Actions** runner for this configuration.
 
 
 Install using pip/conda
